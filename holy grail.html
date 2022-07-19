@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .wrapper {
+        background-color: gray;
+        height: 100%;
+        /*x축 정렬할때 align*/
+        /* justify-content: space-around; /*y축 정렬할때 justify*/
+        /* flex-wrap: wrap; */
+      }
+      .border {
+        border: 1px solid black;
+      }
+      main {
+        display: flex;
+      }
+      header {
+      }
+      nav {
+      }
+      footer {
+      }
+      section {
+      }
+      aside {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="border">header</header>
+      <main class="border">
+        <nav class="border">nav</nav>
+        <div>
+         <section class="border">section</section>
+         <header class="border">header</header>
+         <article class="border">lorem</article>
+        </div>
+        <aside class="border">aside</aside>
+        
+      </main>
+      <footer class="border">footer</footer>
+    </div>
+  </body>
+</html>

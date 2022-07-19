@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            height: 300px;
+            align-items: center; /*x축 정렬할때 align*/
+            justify-content: space-between; /*y축 정렬할때 justify*/
+            /* flex-wrap: wrap; */ 
+        }
+        .box{
+            width: 80px;
+            height: 80px;
+            border : 1px solid blue;
+            background-color: red;
+        }
+        .a{
+            flex:1;
+            background-color: rebeccapurple;
+        }
+        .b{
+            flex:3;
+            background-color: green;
+        }
+        .c{
+            flex:2;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- .wrapper>.box*3 -->
+    <div class="wrapper">
+        <div class="box a"></div>
+        <div class="box b"></div>
+        <div class="box c"></div>
+   
+        
+    </div>
+
+<div></div>
+</body>
+</html>

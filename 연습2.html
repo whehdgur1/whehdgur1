@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .image-wrapper {
+        background-image: url("./w2.png");
+        height: 150px;
+        width: 250px;
+        background-size: cover;
+        margin: 0 auto;
+        border-radius: 15%;
+        border: 1px solid white;
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: coral;
+        height: 300px;
+        align-items: center; /*x축 정렬할때 align*/
+        justify-content: space-between; /*y축 정렬할때 justify*/
+      }
+      .b {
+        background-image: url("./w3.png");
+        border-radius: 15%;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="image-wrapper">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+      </div>
+    </div>
+    <div></div>
+  </body>
+</html>
